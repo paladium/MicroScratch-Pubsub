@@ -13,7 +13,7 @@ class App {
                     port: Number.parseInt(process.env.PORT)
                 },
                 redis: {
-                    url: process.env.REDIS
+                    url: process.env.REDIS_URL
                 }
             };
         }
